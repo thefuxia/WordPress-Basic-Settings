@@ -1,0 +1,13 @@
+h2. Purpose
+
+This small plugin updates some options for your WordPress installation on activation.
+
+h2. License
+
+Author: Thomas Scholz aka "toscho":http://toscho.de
+
+This work is licensed under the "GPL":http://www.gnu.org/licenses/gpl.html.
+
+h2. Usage
+
+Install this plugin into your plugin directory, activate, deactivate and then delete it. That’s all.
