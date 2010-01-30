@@ -1,3 +1,5 @@
+Auf Deutsch unter http://toscho.de/2010/wordpress-grundeinstellungen-per-plugin-setzen/
+
 h2. Purpose
 
 This small plugin updates some options for your WordPress installation on activation.
