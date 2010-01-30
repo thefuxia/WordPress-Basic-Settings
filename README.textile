@@ -1,4 +1,4 @@
-Auf Deutsch unter http://toscho.de/2010/wordpress-grundeinstellungen-per-plugin-setzen/
+Deutsche Beschreibung im Artikel "Grundeinstellungen per Plugin setzen":http://toscho.de/2010/wordpress-grundeinstellungen-per-plugin-setzen/
 
 h2. Purpose
 
