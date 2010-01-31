@@ -3,7 +3,7 @@
 Plugin Name: Toscho's basic settings
 Plugin URI: http://toscho.de/
 Description: Some useful default configuration settings. See 'wp-admin/options.php' for more options.
-Version: 0.2
+Version: 0.3
 Author: Thomas Scholz
 Author URI: http://toscho.de
 */
@@ -30,6 +30,10 @@ function set_toscho_defaults()
 	{
 		update_option($k, $v);
 	}
+	
+	// Delete Dummy post and comment
+	wp_delete_post(1, TRUE);
+	wp_delete_comment(1);
 
 	return;
 }
