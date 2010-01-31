@@ -2,7 +2,7 @@ Deutsche Beschreibung im Artikel "Grundeinstellungen per Plugin setzen":http://t
 
 h2. Purpose
 
-This small plugin updates some options for your WordPress installation on activation.
+This small plugin updates some options for your WordPress installation on activation and it deletes the dummy post and the first comment.
 
 h2. License
 
