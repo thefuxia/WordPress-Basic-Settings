@@ -10,6 +10,8 @@ Author URI: http://toscho.de
 
 function set_toscho_defaults()
 {
+	global $wpdb;
+	
 	$o = array(
 		'avatar_default'			=> 'blank',
 		'avatar_rating'				=> 'G',
@@ -22,6 +24,7 @@ function set_toscho_defaults()
 		'links_updated_date_format'	=> 'j. F Y, H:i',
 		'permalink_structure'		=> '/%year%/%postname%/',
 		'rss_language'				=> 'de',
+		'start_of_week'				=> 1,
 		'timezone_string'			=> 'Etc/GMT-1',
 		'use_smilies'				=> 0,	
 	);
@@ -31,9 +34,12 @@ function set_toscho_defaults()
 		update_option($k, $v);
 	}
 	
-	// Delete Dummy post and comment
+	// Delete dummy post and comment.
 	wp_delete_post(1, TRUE);
 	wp_delete_comment(1);
+	
+	// empty blogroll
+	$wpdb->query("DELETE FROM $wpdb->links WHERE link_id != ''");
 
 	return;
 }

@@ -13,3 +13,10 @@ This work is licensed under the "GPL":http://www.gnu.org/licenses/gpl.html.
 h2. Usage
 
 Install this plugin into your plugin directory, activate, deactivate and then delete it. That’s all.
+
+h2. Changelog
+
+h3. Version 0.3
+ * Added option:
+   bq. 'start_of_week' => 1 // Monday
+ * The blogroll is now cleaned up too.
